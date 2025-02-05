@@ -11,7 +11,10 @@ public class Driver {
 		System.out.println("============Main Execution Start===================\n\n");
 
          //Add your code in between these two print statements
-		 
+		System.out.println("============Class Adapter Start===================\n\n");
+		CalculatorClassAdapter.demo();
+		System.out.println("============Object Adapter Start===================\n\n");
+		CalculatorObjectAdapter.demo();
 		System.out.println("\n\n============Main Execution End===================");
 	}
 
